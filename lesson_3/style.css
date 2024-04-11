@@ -1,0 +1,63 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+h1{
+	color:brown;
+}
+
+h2{
+	color:blue;
+}
+
+h4{
+    color:blueviolet
+}
+
+.list{
+	color:blue;
+}
+
+#climate h2{
+	color:green;
+}
+
+#climate{
+    color:coral
+}
+
+[class*="me"]{
+	color:brown;
+}
+
+p.population{
+	color: yellowgreen;
+}
+
+.transport{
+    color:cornflowerblue
+}
+
+.transport.yellow{
+	color:rgb(224, 224, 18)
+}
+
+ol,
+h3{
+	color:darkcyan;
+}
+
+.attractions ~ p {
+	color:lightcoral;
+}
+
+.kitchen *{
+	color:chocolate;
+}
+
+.attractions +p {
+	color: black;
+}
+
+.transport >p {
+	color: green;
+}
