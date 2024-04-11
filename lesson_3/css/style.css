@@ -57,3 +57,7 @@ h3{
 .attractions +p {
 	color: black;
 }
+
+.transport >p {
+	color: green;
+}
