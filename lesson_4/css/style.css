@@ -1,0 +1,93 @@
+
+/* 2й спосіб підключення шрифтів */
+@import url(https://fonts.googleapis.com/css?family=Rajdhani:300,regular,600,700); 
+
+/* 3й спосіб - Локальне підключення шрифтів */
+@import url("fonts.css");
+
+
+/* Скидання стилів */
+@import url("reset.css");
+
+.title {
+	font-family: "Prompt", sans-serif;
+	font-style: normal;
+	font-size: 36px;
+	font-weight: 600;
+	color:black;
+
+}
+
+h2 {
+	font-family: "Rajdhani", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Rajdhani", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	
+}
+
+h4 {
+	font-family: "Rajdhani", sans-serif;
+	font-size: 18px;
+	color: darkgreen;
+	text-align: right;
+
+}
+
+p,
+.kitchen {
+	font-family: "Rajdhani", sans-serif;
+	text-align: justify;
+	word-spacing: 5px;
+
+}
+
+
+.header li {
+	font-family: "Prompt", sans-serif;
+	font-weight: 600;
+	color: rgb(0, 17, 17);
+	letter-spacing: 3px;
+	text-shadow: 2px 2px 5px gray;
+}
+
+#timezone p {
+	text-decoration: line-through;
+	text-decoration-style: dashed;
+	text-decoration-color: brown;
+}
+
+#religion {
+	text-transform: capitalize;
+}
+
+
+.krovato  {
+	font-family: "Proxima Nova", sans-serif;
+	color: #2b2929;
+}
+
+.krovato h2 {
+    font-size: 40px;
+	line-height: 48px;
+}
+
+.title-krovato {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	
+}
+
+.krovato p {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+
