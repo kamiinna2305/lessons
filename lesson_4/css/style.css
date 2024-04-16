@@ -40,8 +40,21 @@ h4 {
 
 }
 
-p,
-.kitchen {
+.ucraine p,
+#climate p,
+#population p,
+#religion p,
+#timezone p,
+.transport p,
+#kitchen li ,
+.attractions p
+{
+	font-family: "Rajdhani", sans-serif;
+	text-align: justify;
+	word-spacing: 5px;
+}
+
+.kitchen p {
 	font-family: "Rajdhani", sans-serif;
 	text-align: justify;
 	word-spacing: 5px;
