@@ -1,0 +1,161 @@
+/* Локальне підключення шрифтів */
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,700,900,900italic);
+@import url("fonts.css");
+/* Скидання стилів */
+@import url("reset.css");
+
+body {
+max-width: 1914px;
+margin: 0 auto;	
+}
+
+.header_title {
+	font-size: 56px;
+	font-weight:600;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #b797d6;
+	color: #fff;
+	margin-bottom: 70px;
+}
+
+.section_ecommerce {
+	background-color: hsla(210, 24%, 16%, 0.05);
+	margin-bottom: 70px;
+}
+
+.block_ecommerce {
+	max-width: 1320px;
+	margin: 0 auto;
+	margin-bottom: 75px;
+}
+
+.title_ecommerce {
+	font-family: "Roboto",sans-serif;
+	font-size: 50px;
+	padding-top: 100px;
+	text-align: center;
+	margin-bottom: 52px;
+}
+
+.items {
+	font-size: 0;
+	padding-bottom: 325px;
+}
+
+.item {
+	display: inline-block;
+	margin-right: 24px;
+}
+
+.item_end {
+	margin-right: 0px;
+}
+
+.krovato  {
+	max-width: 1070px;
+	margin: 0 auto;
+	font-family: "Proxima Nova", sans-serif;
+	color: #2b2929;
+	margin-bottom: 70px;
+}
+
+.krovato h2 {
+    font-size: 40px;
+	line-height: 48px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.krovato h3 {
+	margin-top: 30px;
+}
+
+.title-krovato {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.krovato img {
+	margin-bottom: 40px;
+}
+
+.krovato p {
+	font-size: 16px;
+	line-height: 30px;
+	text-align: left;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.krovato li {
+	font-size: 16px;
+	line-height: 30px;
+	text-align: left;
+	line-height: 30px;
+	margin-bottom: 20px;
+	padding-left: 47px;
+}
+
+.krovato h4 {
+    font-size: 16px;
+	margin-top: 28px;
+	margin-bottom: 40px;
+	line-height: 30px;
+}
+
+.section_krovato {
+	background-color: hsla(210, 24%, 16%, 0.05);
+}
+
+.krovato_is {
+	max-width: 1290px;
+	margin: 0 auto;
+	color: #2b2929;
+	margin-bottom: 70px;
+    font-style: normal;
+    font-family: "Proxima Nova",sans-serif;
+    font-weight: 400;
+}
+
+.krovato_is-title {
+	font-size: 40px;
+	line-height: 48px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.krovato_items {
+	font-size: 0;
+}
+
+.krovato_item {
+	display: inline-block;
+	max-width: 24%;
+	padding-right: 30px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.krovato_item h3 {
+	font-size: 26px;
+	line-height: 34px;
+}
+
+.krovato_item p {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.footer {
+	background-color: #b797d6;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
