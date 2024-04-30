@@ -1,0 +1,506 @@
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+
+/* Скидання стилів */
+@import url("reset.css");
+
+.header {
+	background-color: rgb(200, 170, 228);
+	border: 2px solid rgb(101, 69, 131);
+	padding: 20px;
+}
+
+.header h1 {
+	font-size: 36px;
+	text-align: center;
+}
+
+/*------------------border-----------------------------*/
+.section-practice {
+	font-size: 36px;
+	padding: 20px;
+}
+
+[class*="block-border"] {
+	background-color: #7a956b;
+	padding: 20px;
+	margin-bottom: 20px;
+	max-width: 300px;
+	display: inline-block;
+}
+.block-border-solid {
+	border: 5px solid #000;
+}
+
+.block-border-dotted {
+	border: 5px dotted #000;
+}
+
+.block-border-dashed {
+	border: 5px dashed #000;
+}
+
+.block-border-double {
+	border: 5px double #000;
+}
+
+.block-border-inline {
+	border-inline: 5px dashed #000;
+}
+
+.block-border-block {
+	border-block: 5px dotted #000;
+}
+
+.link-border {
+	color: #c51414;
+	border-bottom: 5px dashed;
+	margin-bottom: 20px;
+}
+
+.img-border {
+	margin-bottom: 30px;
+	border: 15px solid #faf88b;
+}
+
+.border-inline {
+	border: 5px solid #7a956b;
+}
+
+/*-------------------outline-----------------*/
+
+.outline {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 10px;
+	background-color: #794f45;
+	max-width: 300px;
+	outline-color: #794f45;
+	outline-width: 3px;
+	outline-style: dashed;
+	outline-offset: 10px;
+}
+
+/*------------------border-radius--------------------*/
+
+.border-radius {
+	max-width: 300px;
+	padding: 20px;
+	border-radius: 80px 10px 80px 50px;
+	border: 5px solid #000;
+	outline: 10px dashed red;
+	margin-bottom: 30px;
+}
+
+.img-border-radius {
+	border-radius: 80px 10px 80px 50px;
+	border: 10px solid #f1db13;
+	margin-right: 30px;
+
+}
+
+.circle {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	background-color:  rgb(101, 69, 131);;
+	border-radius: 50%;
+	border: #000 dashed 3px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.oval {
+	width: 300px;
+	height: 200px;
+	background-color:  rgb(101, 69, 131);;
+	border-radius: 50%;
+	border: #000 solid 3px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.border-radius-inline{
+	border: 5px solid #000;
+	border-radius: 80px 10px 80px 50px;
+}
+
+/*-----------------------box-shadow-------------*/
+
+.box-shadow-1 {
+	max-width: 300px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow:
+		5px 5px 5px 10px rgba(39, 46, 32, 0.8);
+		
+}
+
+.box-shadow-2 {
+	max-width: 300px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow:
+		inset 0px 0px 10px 10px rgba(236, 16, 16, 0.8),
+		5px 5px 5px 5px rgba(10, 10, 10, 0.8);
+}
+
+.box-shadow-inline {
+	box-shadow:
+		inset 0 0 10px 0px rgba(0, 0, 0, 0.8),
+		5px 5px 5px 10px rgba(236, 16, 16, 0.8);
+		line-height: 70px;
+}
+
+.img-box-shadow {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	border-radius: 20px;
+	box-shadow:
+		5px 5px 5px 5px rgba(32, 138, 238, 0.8);
+}
+
+.link-box-shadow {
+	margin-top: 30px;
+	color: #f1db13;
+	background-color: #2984ec;
+	padding: 20px 50px;
+	border-radius: 20px;
+	box-shadow: 15px 15px 15px rgba(30, 194, 235, 0.616);
+}
+
+/*--------------------------opacity-------------------------*/
+
+.opacity .box-shadow-2  {
+	opacity: 0.3;
+}
+
+.opacity .box-shadow-inline  {
+	opacity: 0.1;
+}
+
+.opacity .img-box-shadow  {
+	opacity: 0.5;
+}
+
+.opacity .link-box-shadow {
+	opacity: 0.8;
+}
+
+/*-------------------------visibility----------------------*/
+
+.visibility .block-border-dotted {
+	visibility: hidden;
+}
+
+.visibility .link-box-shadow {
+	visibility: hidden;
+}
+
+.visibility .link-border {
+	opacity: 0;
+}
+
+.visibility .box-shadow-inline {
+	visibility: hidden;
+}
+
+/* ---------------Властивість background-------------------- */
+
+[class*="background"] {
+	width: 500px;
+	height: 500px;
+	border: 5px solid black;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.background-repeat {
+	background-image: url("../img/Flag.png");
+}
+
+.background-color {
+	background-color: #f1db13;
+}
+
+.background-repeat-x {
+	background-image: url("../img/Flag.png");
+	background-repeat: repeat-x;
+}
+
+.background-repeat-y {
+	background-image: url("../img/Flag.png");
+	background-repeat: repeat-y;
+}
+ 
+.background-linear-gradient {
+	background: rgb(0,36,20);
+    background: linear-gradient(90deg, rgba(0,36,20,1) 0%, rgba(76,121,9,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.background-position {
+	background-image: url("../img/Flag.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.background-attachment-fixed {
+	background-image: url("../img/Flag.png");
+	background-attachment: fixed;
+}
+
+.background-attachment-scroll {
+	background-image: url("../img/Flag.png");
+	background-attachment: scroll;
+}
+
+.background-size-contain {
+	background-image: url("../img/Flag.png");
+	background-size: contain;
+}
+
+.background-size-cover {
+	width: 580px;
+	background-image: url("../img/Flag.png");
+	background-size: cover;
+}
+
+.background-size {
+	background-image: url("../img/Flag.png");
+	background-repeat: no-repeat;
+	background-size: 100px 200px;
+}
+
+.background-mix {
+	background: 
+	url("../img/Flag.png") center / 200px no-repeat,
+	url("../img/Frame1.png") 100px ,
+	linear-gradient(90deg, rgb(1, 106, 167) 0%, rgb(242, 245, 87) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+.section_krovato {
+	background-color: hsla(210, 24%, 16%, 0.05);
+}
+
+.krovato  {
+	max-width: 1070px;
+	margin: 0 auto;
+	font-family: "Proxima Nova", sans-serif;
+	color: #2b2929;
+	
+}
+
+.krovato h2 {
+    font-size: 40px;
+	line-height: 48px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.krovato_p {
+	margin-bottom: 30px;
+}
+
+.krovato h3 {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: left;
+	margin-bottom: 42px;
+}
+
+.krovato img {
+	padding-bottom: 40px;
+}
+
+.krovato p {
+	font-size: 16px;
+	line-height: 30px;
+	text-align: left;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+
+.krovato ul {
+	margin-bottom: 28px;
+}
+
+
+.krovato li {
+	font-size: 16px;
+	line-height: 30px;
+	text-align: left;
+	line-height: 30px;
+	padding-bottom: 20px;
+	padding-left: 47px;
+	background: url("../img/mark.png") 0 0 / 32px no-repeat;
+	padding-left: 47px;
+}
+
+.krovato h4 {
+    font-size: 16px;
+	line-height: 30px;
+}
+
+/*-------------------------eduplay------------------*/
+.section-eduplay {
+background-color: #914CFF;
+background-image: url("../img/Holographic_14\ 2.png");
+max-height: 530px;
+font-size: 0;
+}
+
+.container-eduplay {
+	background: 
+	url(../img/0.png) 27% bottom no-repeat,
+	url(../img/5.png) 21% 45% no-repeat,
+	url(../img/8.png) 22% -3% no-repeat,
+	url(../img/M.png) 48% 91% no-repeat,
+	url(../img/X.png) 45% 2% no-repeat,
+	url(../img/p.png) 55% 30% no-repeat,
+	url(../img/o.png) 42% 17% no-repeat;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.content-eduplay {
+	max-width: 600px;
+	font-family: "Quicksand",sans-serif;
+	color: #fff;
+	margin-top: 121px;
+	margin-right: 133px;
+	display: inline-block;
+}
+
+.content-eduplay h2 {
+	font-weight: 700;
+	line-height: 48px;
+	font-size: 40px;
+	margin-bottom: 24px;
+}
+
+.content-eduplay p {
+	font-size: 20px;
+	font-weight: 500;
+    line-height: 32px;
+	margin-bottom: 24px;
+}
+
+.content-eduplay a {
+	background-color: #fff;
+	padding: 11.5px 20px;
+	border-radius: 8px;
+	justify-content: center;
+	color: #0d1216;
+    font-size: 16px;
+	font-weight: 700;
+	line-height: 25px;
+}
+
+.img-eduplay {
+	display: inline-block;
+	background: 
+	           url("../img/blob_3_1.png") bottom no-repeat,
+			   url(../img/Books.png) 15% 25% no-repeat,
+			   url(../img/Kite.png) 6% 52% no-repeat,
+			   url(../img/Group\ 11.png) 95% 13% no-repeat,
+			   url(../img/B.png) 70% 6% no-repeat,
+			   url(../img/Ellipse\ 38.png) 100% 56% no-repeat,
+			   url(../img/k.png) 10% 70% no-repeat,
+			   url(../img/f.png) 75% 50% no-repeat;
+
+	width: 547px;
+	height: 530px;
+	padding: 37px;
+}
+
+
+/*------------------------------------------------*/
+.section-coral {
+	background-color: hsla(210, 24%, 16%, 0.05);
+    padding-top: 196px ;
+    padding-bottom: 59px;
+	max-height: 817px;
+}
+
+.container-coral {
+    max-width: 1226px;
+	max-height: 562px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.content-coral {
+	display: inline-block;
+	font-family: "Roboto",sans-serif;
+	color: #000;
+	max-width: 686px;
+	margin-right: 98px;
+}
+
+.content-coral h2 {
+	font-size: 74px;
+	font-weight: 300;
+	line-height: 55px;
+	margin-bottom: 52px;
+}
+
+.content-coral p {
+	font-size: 30px;
+	line-height: 55px;
+	text-transform: capitalize;
+	margin-bottom: 66px;
+}
+
+.content-coral a {
+	background-color: #000;
+	padding: 19px;
+	color: #fff;
+	min-width: 223px;
+	min-height: 72px;
+}
+
+.content-coral span {
+	font-size: 29px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.coral-img {
+	display: inline-block;
+	background: url("../img/Rectangle\ 124.png") no-repeat;
+	vertical-align: top;
+    max-width: 424px;
+    width: 100%;
+    height: 542px;
+  
+    margin: 20px 0 0 18px;
+}
+
+.img-coral {
+	max-width: 424px;
+    width: 100%;
+    height: 542px;
+    border-radius: 160px 0;
+    margin: -20px 0 0 -18px;
+}
+
+/*-----------------footer------------------------------*/
+
+.footer {
+	background-color: rgb(200, 170, 228);
+	border: 2px solid rgb(101, 69, 131);
+	padding: 20px;
+	text-align: center;
+	font-size: 26px;
+}
