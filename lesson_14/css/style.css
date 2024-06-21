@@ -372,3 +372,23 @@ body {
 
 
 /*********************************************************************************************/
+
+.button {
+	display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 5px;
+}
+.button__text {
+	display: flex;
+    align-items: center;
+    padding: 14px 106px;
+    background-color: #ffbc57;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
