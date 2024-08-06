@@ -276,7 +276,12 @@ body {
 		grid-template-columns: 1fr;
 		padding-right: 15px;
 		padding-left: 15px;
-		
+	}
+	.e-commerceWebsite__item:nth-child(2)  {
+		grid-column: span 1;
+	}
+	.e-commerceWebsite__item:nth-child(3)  {
+		grid-column: span 1;
 	}
 
 }
