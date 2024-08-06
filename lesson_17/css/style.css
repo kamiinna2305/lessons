@@ -228,13 +228,7 @@ body {
     border-radius: 20px;
 }
 
-.e-commerceWebsite__item:nth-child(2)  {
-	grid-column: span 2;
-}
 
-.e-commerceWebsite__item:nth-child(3)  {
-	grid-column: span 2;
-}
 
 .item__title {
 	font-family: "Satoshi", sans-serif;
@@ -264,6 +258,17 @@ body {
 	}
 }
 
+@media (min-width: 826px) {
+	.e-commerceWebsite__item:nth-child(2)  {
+		grid-column: span 2;
+	}
+	
+	.e-commerceWebsite__item:nth-child(3)  {
+		grid-column: span 2;
+	}
+}
+
+
 @media (max-width: 826px) {
 	.e-commerceWebsite__title {
 		font-size: 36px;
@@ -277,13 +282,6 @@ body {
 		padding-right: 15px;
 		padding-left: 15px;
 	}
-	.e-commerceWebsite__item:nth-child(2)  {
-		grid-column: span 1;
-	}
-	.e-commerceWebsite__item:nth-child(3)  {
-		grid-column: span 1;
-	}
-
 }
 
 @media (max-width: 450px) {
